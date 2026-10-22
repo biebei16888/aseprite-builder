@@ -1,5 +1,7 @@
-name: Build and release Aseprite
 
+FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+name: Build and release Aseprite
+env:
 on:
   push:
     branches:
